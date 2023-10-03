@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B4668EB-8E95-431B-05F0-3DD56C0156F1" name="FEE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:14:32 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FeeId" id="88A3EE77-7ACD-B5B6-62DA-BFD87A1C4668">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeeName" id="2CDA7F57-8B83-90EB-0840-499AF5C7528E">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeeDescription" id="3EA4E5E6-D087-D28E-AC2B-43586EB097FC">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateCharged" id="47E0A6D6-8E4D-6182-043F-66686555AF8B">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeeCharged" id="EC57DDEA-A4EF-8FE5-2847-7EE4D1C8CE6A">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GuestID" id="A38144D0-8946-8911-6CF0-60AD4538CFF8">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeeTypeId" id="AC51816E-EF8B-5137-6F47-540BDA8B4B5B">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0C3733C-2120-3323-A0C4-03FE85734121" name="FeePK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-10-03 23:21:28 UTC</createdTime>
+<ownerDesignName>Assign1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A3EE77-7ACD-B5B6-62DA-BFD87A1C4668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
