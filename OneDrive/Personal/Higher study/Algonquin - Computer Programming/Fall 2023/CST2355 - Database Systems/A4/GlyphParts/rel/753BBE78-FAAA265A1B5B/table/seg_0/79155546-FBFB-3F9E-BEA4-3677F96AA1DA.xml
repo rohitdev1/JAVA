@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79155546-FBFB-3F9E-BEA4-3677F96AA1DA" name="Managers">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:31:47 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ManagerFirstName" id="E89E6F81-AFAA-C065-C893-7430728A3033">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:08 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerLastName" id="59E90082-BCA3-355F-D0D7-4BD1929029DF">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:08 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeTitle" id="40B533E6-A608-0C10-78B1-7CE88764D267">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:08 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeFirstName" id="03427F9C-A8A6-C638-406E-B91E9F8E9475">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:08 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeLastName" id="11F7EE52-66D8-8171-B1E8-6FE9347BB586">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:08 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

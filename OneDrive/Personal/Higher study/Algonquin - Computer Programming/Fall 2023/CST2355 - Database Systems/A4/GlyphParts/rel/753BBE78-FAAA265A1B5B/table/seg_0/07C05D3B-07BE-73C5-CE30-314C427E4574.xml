@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07C05D3B-07BE-73C5-CE30-314C427E4574" name="OperationExpenses">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:12 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeFirstName/VendorName" id="7B03FA32-FFDE-BA61-827D-C0368BF384D8">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeLastName" id="37A246B6-3485-9DDD-001E-CCF4C9820877">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentAmount" id="A3D0839E-2D51-2BA6-31AF-E523C94E550B">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentDate" id="BC203158-A437-78FE-E126-978F264D0448">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="4DB184D6-4EE7-6252-33A8-CCEF27C74E14">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apt" id="691BD518-3FCC-A35B-FB65-A84C92FCE477">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="562BAD42-39BF-039E-DD27-FE335BC7CDA1">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="323CFC58-E672-CC9D-7C04-F1C8DCCC6693">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="3C12DA5C-5B3C-9782-8A26-99944B0B524C">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comments" id="013B0450-F17F-397D-EDCC-7B7A3DBAFC27">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:40:35 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

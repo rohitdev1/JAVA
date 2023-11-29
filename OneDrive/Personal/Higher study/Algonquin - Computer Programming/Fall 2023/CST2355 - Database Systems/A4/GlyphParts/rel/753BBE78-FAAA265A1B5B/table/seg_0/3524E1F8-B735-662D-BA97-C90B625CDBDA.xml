@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3524E1F8-B735-662D-BA97-C90B625CDBDA" name="Sales">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:36:25 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CompanyName" id="0A5A549A-4E57-5CEE-21D7-B504D5880EF1">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RecipientFirstName" id="16D73075-0BAC-9D78-8DDA-5356DFF4C484">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RecipientLastName" id="37158634-F87F-626B-D0E9-EEAE635424F0">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product" id="ABD87ABE-45E5-5D0E-93F0-4F15B47B3980">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment" id="CB93461F-BF93-E933-3979-2A12B00179DE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="CF2F4D10-F549-ACC8-6D0E-AAEECFF363DE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apt" id="0026A78A-97B1-42A0-CBE2-0308DFBC25BC">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="6A7BAE67-3458-F03F-952E-16488C5FA5C0">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="1D6701AD-2BD9-CA8D-EC5C-AA63F2396885">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="FC04C102-F4EB-33C5-E297-C2B2B4FF9DD0">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesManFirstName" id="9416750E-17FD-9744-C289-A1F2FA08D067">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesManLastName" id="10445034-B028-F9E9-283A-1D4F53416620">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalPrice" id="E31F02E9-A47B-CE3E-7F7C-609E895F2AB9">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:39:00 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

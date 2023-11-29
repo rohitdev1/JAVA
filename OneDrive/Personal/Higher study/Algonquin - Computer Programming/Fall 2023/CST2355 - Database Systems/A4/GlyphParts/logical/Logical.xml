@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D553DB36-E108-F5EB-AA5D-9CA2D0C54AF3" mainViewID="FDF11F68-FCB5-D89B-A501-64BDF89E5E89">
+<createdBy>rohit</createdBy>
+<createdTime>2023-11-29 00:29:38 UTC</createdTime>
+<ownerDesignName>GlyphParts</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
