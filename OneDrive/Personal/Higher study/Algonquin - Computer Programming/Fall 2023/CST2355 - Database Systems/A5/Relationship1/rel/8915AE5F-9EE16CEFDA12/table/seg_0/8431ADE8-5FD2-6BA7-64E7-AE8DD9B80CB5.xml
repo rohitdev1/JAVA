@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8431ADE8-5FD2-6BA7-64E7-AE8DD9B80CB5" name="PARTNERSHIP">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:06:33 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartnershipId" id="7080B41A-01CB-43B6-E741-A77F6734B1EB">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:07:36 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InitiatedDate" id="6DA17EAE-6707-36EC-2B3C-EC317D5CBBC9">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:07:36 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>80CDB0B7-70C5-312A-CA8D-063CFC08477E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TerminationDate" id="39764883-9909-F3C7-C405-1BA2B650A2C6">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:07:36 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>80CDB0B7-70C5-312A-CA8D-063CFC08477E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1AB08B7-1249-21B3-1ED7-EDE398A5F3AF" name="PARTNERSHIP_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:39:51 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7080B41A-01CB-43B6-E741-A77F6734B1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

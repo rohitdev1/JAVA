@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D794DB86-1CE8-8867-EB70-3FBD647246F5" name="PURCHASE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:19:23 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PurchaseId" id="63941FEB-EE0D-AE11-E1D8-102B04CFBC32">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:20:46 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D917B5B5-E763-9B95-DD3B-3CF5B76FF774</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchaseDate" id="36F1EC9C-31F3-CF44-547A-D1BDC88F41E0">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:20:46 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>80CDB0B7-70C5-312A-CA8D-063CFC08477E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Purchaseprice" id="12EF1550-9542-AAFD-1B29-C4AFCAB7F57E">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:20:46 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_STORE_E_StoreId" id="B96D4D6C-857F-FC72-DADD-0E420A30B9E4">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:24 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="870A138E-EDA5-A09B-9E83-760B17414170" referredColumn="939EB5E5-92AE-5E14-CAF0-3D784F6FD052"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_CustomerId" id="5E3BDEAF-BBF2-5ADC-A89B-BA0A4B180912">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:36 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="269077CD-5FC6-BF76-8278-332E9365B1B2" referredColumn="360A98E7-10C0-5197-4BBD-A8C0CA52C74D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54A87A53-BDEB-CADC-FA14-8D86E31B5C7B" name="PURCHASE_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:20:46 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63941FEB-EE0D-AE11-E1D8-102B04CFBC32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="311F2268-CD47-79FF-2EFE-D9105187FFF7" name="PURCHASE_E_STORE_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:24 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B96D4D6C-857F-FC72-DADD-0E420A30B9E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADF92FED-05AA-AE0D-01F7-9A4CCD4B13F7" name="PURCHASE_CUSTOMER_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:36 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3BDEAF-BBF2-5ADC-A89B-BA0A4B180912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

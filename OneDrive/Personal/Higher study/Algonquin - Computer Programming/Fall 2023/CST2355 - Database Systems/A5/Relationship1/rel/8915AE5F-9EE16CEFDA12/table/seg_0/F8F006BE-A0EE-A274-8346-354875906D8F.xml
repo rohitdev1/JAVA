@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8F006BE-A0EE-A274-8346-354875906D8F" name="ENTITY_PARTNERSHIP_INT">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:03:05 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityPartnershipIntId" id="BD12B4D7-2861-F9BE-D182-2EA9F674128B">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:04:00 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntityId" id="315C9E3F-3BD5-3B58-A735-92D67CA57876">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:04:00 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartnershipId" id="86018C67-632C-6DD8-8D4D-E2348BD25A64">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:04:00 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_EntityId" id="380BDB0D-09DE-5D3A-1573-594802B8B0D5">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:37:16 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4D90640-09A9-C707-E8CB-1031F86B1E18" referredColumn="83F0CEEB-A3C4-4788-926C-87D1060B1B25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7D6B30E-99A3-3D89-D468-4F8E9389E90E" name="ENTITY_PARTNERSHIP_INT_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:47 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD12B4D7-2861-F9BE-D182-2EA9F674128B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="197B4648-9981-71BB-C24D-CE60C15CBFB4" name="ENTITY_PARTNERSHIP_INT_ENTITY_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:37:15 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="380BDB0D-09DE-5D3A-1573-594802B8B0D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

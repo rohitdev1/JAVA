@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA28BFB6-D0A2-A1B3-B72D-D7CF575051A2" name="OFFERING">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:17:43 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OfferingId" id="A169AD71-BEB2-E8B2-F80C-812C954F7434">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:19:08 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidDate" id="2E594C04-D3A5-3EAD-56CA-4E57620F8ED3">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:19:08 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>80CDB0B7-70C5-312A-CA8D-063CFC08477E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OfferedPrice" id="0E2E6701-ED94-0356-952E-C639F6FD80BB">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:19:08 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ProductId" id="5BE093B3-58EB-889B-BE42-457EB4ADE558">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:39:08 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D85E1F-80EA-4521-5A16-842FBAB18C6C" referredColumn="9D625262-5B1E-B9D6-2786-1093ECEE5E43"/>
+</associations>
+</Column>
+<Column name="PARTNERSHIP_PartnershipId" id="B25E2F2C-047C-0313-D220-F667F3C17E8B">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:06 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB42540B-8B68-0983-3740-72DD22A0EEBE" referredColumn="7080B41A-01CB-43B6-E741-A77F6734B1EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B8129C2-32E9-3AB0-9095-EDDB1E8A439E" name="OFFERING_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:29:51 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A169AD71-BEB2-E8B2-F80C-812C954F7434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EFA240A-7B8B-5947-D141-798A23C8D7B1" name="OFFERING_PRODUCT_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:39:08 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE093B3-58EB-889B-BE42-457EB4ADE558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46FBA2DF-24E0-3DA1-1C1D-15C50C77C4C9" name="OFFERING_PARTNERSHIP_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:40:06 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B25E2F2C-047C-0313-D220-F667F3C17E8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

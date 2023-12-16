@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1AD840D-E885-75DF-1297-715A92C97838" name="ADDRESS">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:57:03 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AddressId" id="4F181176-3E5D-8529-52C3-E6AA6DF47D9F">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AoartmentNumber" id="8E943DC1-AB6E-08D1-CD7C-4B06D638E10C">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StreetNumber" id="55EC8AA5-C7A3-724B-7EF2-8726148C23FD">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StreetName" id="D22DAFAB-E72C-6ABE-A01A-1A004BE05ACF">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="8F570C8D-D94D-866C-00D7-5A4BBECDD313">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="06DA2681-A0CF-E37B-DDCF-798C945395D2">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="2B47C484-1BBC-7CA3-A0E9-EB8F65B572D2">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_EntityId" id="0EB70088-88AF-4CC7-617D-502F394F0E3C">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:37:56 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B940701-7A78-63BB-1EDC-A7D27CCC8417" referredColumn="83F0CEEB-A3C4-4788-926C-87D1060B1B25"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_CustomerId" id="BD13B46C-DAB4-27DF-5507-566289E1F4EC">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:38:12 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B00EFB8-C122-323D-5CCC-4498F330CFB4" referredColumn="360A98E7-10C0-5197-4BBD-A8C0CA52C74D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75AEEB59-1BCF-91CD-8903-3A70B47C4943" name="ADDRESS_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:58:40 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F181176-3E5D-8529-52C3-E6AA6DF47D9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49343BFE-39E1-7C19-B665-B646CA95E3DB" name="ADDRESS_ENTITY_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:37:56 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB70088-88AF-4CC7-617D-502F394F0E3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963974AA-773B-4D8C-1019-EA23E79ABDFE" name="ADDRESS_CUSTOMER_FK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:38:12 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD13B46C-DAB4-27DF-5507-566289E1F4EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8CB7B5F-9570-939D-1BC4-F7588AA83332" name="ENTITY">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:54:29 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EntityId" id="83F0CEEB-A3C4-4788-926C-87D1060B1B25">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:56:52 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company" id="1B9257C8-D030-3951-121B-3029533DC1F3">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:56:52 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="6D6F3362-BA51-D217-B519-3C0A9E3B398A">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:56:52 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="38B47E50-AE7A-FFB2-217C-65280E8319DE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:56:52 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E27FF0A-5B8D-17A4-D0BA-395FF448C778" name="ENTITY_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 07:56:52 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F0CEEB-A3C4-4788-926C-87D1060B1B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

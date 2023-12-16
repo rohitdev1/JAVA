@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49133099-324C-9A05-1B64-E4C450B75AAA" name="E_STORE">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:25:55 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="E_StoreId" id="939EB5E5-92AE-5E14-CAF0-3D784F6FD052">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:11 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5C2E04B2-5350-F1D2-05C9-658482EAB7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StoreName" id="507C155B-B362-BE21-A29C-9DB50C769E1E">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:11 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0110AB80-B1E5-DF42-B182-5D291FC79917</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocationCode" id="EA504AD1-8642-46C7-3614-C0B47DF70699">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:11 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL" id="5A479F75-444C-47A5-9B1E-B206BC5A6D1A">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:11 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDE2085A-CAF5-E30C-8E6F-B269FA3EEC1E" name="E_STORE_PK">
+<createdBy>rohit</createdBy>
+<createdTime>2023-12-16 08:28:11 UTC</createdTime>
+<ownerDesignName>Relationship1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939EB5E5-92AE-5E14-CAF0-3D784F6FD052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
